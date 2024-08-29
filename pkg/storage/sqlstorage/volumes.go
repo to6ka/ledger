@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	"github.com/huandu/go-sqlbuilder"
-	"github.com/numary/ledger/pkg/core"
-	"github.com/numary/ledger/pkg/storage"
+	"github.com/to6ka/ledger/pkg/core"
+	"github.com/to6ka/ledger/pkg/storage"
 )
 
 func (s *Store) updateVolumes(ctx context.Context, volumes core.AccountsAssetsVolumes) error {

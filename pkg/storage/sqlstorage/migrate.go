@@ -9,8 +9,8 @@ import (
 
 	"github.com/formancehq/stack/libs/go-libs/logging"
 	"github.com/huandu/go-sqlbuilder"
-	"github.com/numary/ledger/pkg/core"
-	"github.com/numary/ledger/pkg/opentelemetry"
+	"github.com/to6ka/ledger/pkg/core"
+	"github.com/to6ka/ledger/pkg/opentelemetry"
 	"github.com/pkg/errors"
 )
 

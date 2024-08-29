@@ -1,7 +1,7 @@
 {
   "name": "Formance Ledger",
   "description": "A programmable financial ledger to build money-moving apps",
-  "repository": "https://github.com/numary/ledger",
+  "repository": "https://github.com/to6ka/ledger",
   "logo": "https://avatars.githubusercontent.com/u/84325077?s=200",
   "keywords": ["ledger", "go", "golang", "programming", "money", "finance"],
   "addons": [

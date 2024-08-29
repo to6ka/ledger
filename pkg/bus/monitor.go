@@ -6,8 +6,8 @@ import (
 	"github.com/ThreeDotsLabs/watermill/message"
 	"github.com/formancehq/stack/libs/go-libs/logging"
 	"github.com/formancehq/stack/libs/go-libs/publish"
-	"github.com/numary/ledger/pkg/core"
-	"github.com/numary/ledger/pkg/ledger"
+	"github.com/to6ka/ledger/pkg/core"
+	"github.com/to6ka/ledger/pkg/ledger"
 	"go.uber.org/fx"
 )
 

@@ -7,8 +7,8 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/numary/ledger/pkg/ledger"
-	"github.com/numary/ledger/pkg/storage"
+	"github.com/to6ka/ledger/pkg/ledger"
+	"github.com/to6ka/ledger/pkg/storage"
 	"gopkg.in/yaml.v3"
 )
 

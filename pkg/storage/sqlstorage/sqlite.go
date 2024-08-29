@@ -15,8 +15,8 @@ import (
 
 	"github.com/buger/jsonparser"
 	"github.com/mattn/go-sqlite3"
-	"github.com/numary/ledger/pkg/core"
-	"github.com/numary/ledger/pkg/storage"
+	"github.com/to6ka/ledger/pkg/core"
+	"github.com/to6ka/ledger/pkg/storage"
 )
 
 func init() {

@@ -6,8 +6,8 @@ import (
 	"encoding/json"
 
 	"github.com/huandu/go-sqlbuilder"
-	"github.com/numary/ledger/pkg/core"
-	"github.com/numary/ledger/pkg/storage/sqlstorage"
+	"github.com/to6ka/ledger/pkg/core"
+	"github.com/to6ka/ledger/pkg/storage/sqlstorage"
 	"github.com/pkg/errors"
 )
 

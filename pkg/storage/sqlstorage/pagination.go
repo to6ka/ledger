@@ -3,7 +3,7 @@ package sqlstorage
 import (
 	"time"
 
-	"github.com/numary/ledger/pkg/ledger"
+	"github.com/to6ka/ledger/pkg/ledger"
 )
 
 type TxsPaginationToken struct {

@@ -10,10 +10,10 @@ builds:
   - binary: numary
     id: numary_darwin
     ldflags:
-      - -X github.com/numary/ledger/cmd.BuildDate={{ .Date }}
-      - -X github.com/numary/ledger/cmd.Version={{ .Version }}
-      - -X github.com/numary/ledger/cmd.Commit={{ .ShortCommit }}
-      - -X github.com/numary/ledger/cmd.DefaultSegmentWriteKey={{ .Env.SEGMENT_WRITE_KEY }}
+      - -X github.com/to6ka/ledger/cmd.BuildDate={{ .Date }}
+      - -X github.com/to6ka/ledger/cmd.Version={{ .Version }}
+      - -X github.com/to6ka/ledger/cmd.Commit={{ .ShortCommit }}
+      - -X github.com/to6ka/ledger/cmd.DefaultSegmentWriteKey={{ .Env.SEGMENT_WRITE_KEY }}
       - -s
     env:
       - CGO_ENABLED=1

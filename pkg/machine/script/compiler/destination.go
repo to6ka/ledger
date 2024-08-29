@@ -3,9 +3,9 @@ package compiler
 import (
 	"errors"
 
-	"github.com/numary/ledger/pkg/core"
-	"github.com/numary/ledger/pkg/machine/script/parser"
-	"github.com/numary/ledger/pkg/machine/vm/program"
+	"github.com/to6ka/ledger/pkg/core"
+	"github.com/to6ka/ledger/pkg/machine/script/parser"
+	"github.com/to6ka/ledger/pkg/machine/vm/program"
 )
 
 func (p *parseVisitor) VisitDestination(c parser.IDestinationContext) *CompileError {

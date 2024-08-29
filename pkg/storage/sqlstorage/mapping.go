@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 
 	"github.com/huandu/go-sqlbuilder"
-	"github.com/numary/ledger/pkg/core"
+	"github.com/to6ka/ledger/pkg/core"
 )
 
 // We have only one mapping for a ledger, so hardcode the id

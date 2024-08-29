@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/huandu/go-sqlbuilder"
-	"github.com/numary/ledger/pkg/core"
-	"github.com/numary/ledger/pkg/ledgertesting"
-	"github.com/numary/ledger/pkg/storage/sqlstorage"
+	"github.com/to6ka/ledger/pkg/core"
+	"github.com/to6ka/ledger/pkg/ledgertesting"
+	"github.com/to6ka/ledger/pkg/storage/sqlstorage"
 	"github.com/pborman/uuid"
 	"github.com/stretchr/testify/require"
 )

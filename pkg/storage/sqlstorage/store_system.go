@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/huandu/go-sqlbuilder"
-	"github.com/numary/ledger/pkg/storage"
+	"github.com/to6ka/ledger/pkg/storage"
 	"github.com/pkg/errors"
 )
 

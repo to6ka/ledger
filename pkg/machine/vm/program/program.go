@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/numary/ledger/pkg/core"
+	"github.com/to6ka/ledger/pkg/core"
 	"github.com/pkg/errors"
 )
 

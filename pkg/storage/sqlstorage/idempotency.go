@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/huandu/go-sqlbuilder"
-	"github.com/numary/ledger/pkg/api/idempotency"
+	"github.com/to6ka/ledger/pkg/api/idempotency"
 	"github.com/pkg/errors"
 )
 

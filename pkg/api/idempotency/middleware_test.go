@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	"github.com/gin-gonic/gin"
-	"github.com/numary/ledger/pkg/storage"
+	"github.com/to6ka/ledger/pkg/storage"
 	"github.com/stretchr/testify/require"
 )
 

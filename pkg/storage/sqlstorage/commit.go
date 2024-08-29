@@ -3,8 +3,8 @@ package sqlstorage
 import (
 	"context"
 
-	"github.com/numary/ledger/pkg/core"
-	"github.com/numary/ledger/pkg/storage"
+	"github.com/to6ka/ledger/pkg/core"
+	"github.com/to6ka/ledger/pkg/storage"
 	"github.com/pkg/errors"
 )
 

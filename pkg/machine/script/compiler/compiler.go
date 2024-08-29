@@ -5,9 +5,9 @@ import (
 	"strings"
 
 	"github.com/antlr/antlr4/runtime/Go/antlr"
-	"github.com/numary/ledger/pkg/core"
-	"github.com/numary/ledger/pkg/machine/script/parser"
-	"github.com/numary/ledger/pkg/machine/vm/program"
+	"github.com/to6ka/ledger/pkg/core"
+	"github.com/to6ka/ledger/pkg/machine/script/parser"
+	"github.com/to6ka/ledger/pkg/machine/vm/program"
 	"github.com/pkg/errors"
 )
 

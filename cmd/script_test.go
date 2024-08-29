@@ -15,8 +15,8 @@ import (
 	"github.com/formancehq/stack/libs/go-libs/pgtesting"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/uuid"
-	"github.com/numary/ledger/pkg/api/controllers"
-	"github.com/numary/ledger/pkg/core"
+	"github.com/to6ka/ledger/pkg/api/controllers"
+	"github.com/to6ka/ledger/pkg/core"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/require"
 )

@@ -14,14 +14,14 @@ import (
 	"github.com/formancehq/stack/libs/go-libs/service"
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
-	"github.com/numary/ledger/cmd/internal"
-	"github.com/numary/ledger/pkg/api"
-	"github.com/numary/ledger/pkg/api/middlewares"
-	"github.com/numary/ledger/pkg/api/routes"
-	"github.com/numary/ledger/pkg/bus"
-	"github.com/numary/ledger/pkg/ledger"
-	"github.com/numary/ledger/pkg/redis"
-	"github.com/numary/ledger/pkg/storage/sqlstorage"
+	"github.com/to6ka/ledger/cmd/internal"
+	"github.com/to6ka/ledger/pkg/api"
+	"github.com/to6ka/ledger/pkg/api/middlewares"
+	"github.com/to6ka/ledger/pkg/api/routes"
+	"github.com/to6ka/ledger/pkg/bus"
+	"github.com/to6ka/ledger/pkg/ledger"
+	"github.com/to6ka/ledger/pkg/redis"
+	"github.com/to6ka/ledger/pkg/storage/sqlstorage"
 	"github.com/spf13/viper"
 	"go.opentelemetry.io/otel/trace"
 	"go.uber.org/fx"
@@ -45,6 +45,10 @@ func resolveOptions(v *viper.Viper, userOptions ...fx.Option) []fx.Option {
 
 	redisLockStrategy := false
 	switch v.GetString(lockStrategyFlag) {
+	case "none":
+		options = append(options, fx.Provide(func() middlewares.Locker {
+			return middlewares.NoOpLocker
+		}))
 	case "redis":
 		var tlsConfig *tls.Config
 		if v.GetBool(lockStrategyRedisTLSEnabledFlag) {
@@ -60,6 +64,10 @@ func resolveOptions(v *viper.Viper, userOptions ...fx.Option) []fx.Option {
 			TLSConfig:    tlsConfig,
 		}))
 		redisLockStrategy = true
+	default:
+		options = append(options, fx.Provide(func() middlewares.Locker {
+			return middlewares.NewInMemoryLocker()
+		}))
 	}
 
 	// Handle api part

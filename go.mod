@@ -1,4 +1,4 @@
-module github.com/numary/ledger
+module github.com/to6ka/ledger
 
 go 1.19
 

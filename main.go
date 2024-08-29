@@ -4,7 +4,7 @@
 package main
 
 import (
-	"github.com/numary/ledger/cmd"
+	"github.com/to6ka/ledger/cmd"
 )
 
 func main() {

@@ -7,7 +7,7 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/numary/ledger/cmd/internal"
+	"github.com/to6ka/ledger/cmd/internal"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

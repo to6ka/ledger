@@ -5,10 +5,10 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/numary/ledger/pkg/api/apierrors"
-	"github.com/numary/ledger/pkg/contextlogger"
-	"github.com/numary/ledger/pkg/ledger"
-	"github.com/numary/ledger/pkg/opentelemetry"
+	"github.com/to6ka/ledger/pkg/api/apierrors"
+	"github.com/to6ka/ledger/pkg/contextlogger"
+	"github.com/to6ka/ledger/pkg/ledger"
+	"github.com/to6ka/ledger/pkg/opentelemetry"
 )
 
 type LedgerMiddleware struct {

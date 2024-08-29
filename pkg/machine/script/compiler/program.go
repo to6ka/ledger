@@ -1,8 +1,8 @@
 package compiler
 
 import (
-	"github.com/numary/ledger/pkg/core"
-	"github.com/numary/ledger/pkg/machine/vm/program"
+	"github.com/to6ka/ledger/pkg/core"
+	"github.com/to6ka/ledger/pkg/machine/vm/program"
 )
 
 func (p *parseVisitor) AppendInstruction(instruction byte) {

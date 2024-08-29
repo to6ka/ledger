@@ -3,7 +3,7 @@ package program
 import (
 	"testing"
 
-	"github.com/numary/ledger/pkg/core"
+	"github.com/to6ka/ledger/pkg/core"
 	"github.com/stretchr/testify/require"
 )
 

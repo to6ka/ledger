@@ -4,9 +4,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/numary/ledger/pkg/core"
-	"github.com/numary/ledger/pkg/machine/script/parser"
-	"github.com/numary/ledger/pkg/machine/vm/program"
+	"github.com/to6ka/ledger/pkg/core"
+	"github.com/to6ka/ledger/pkg/machine/script/parser"
+	"github.com/to6ka/ledger/pkg/machine/vm/program"
 )
 
 type FallbackAccount core.Address

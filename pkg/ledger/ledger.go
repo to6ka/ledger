@@ -7,7 +7,7 @@ import (
 
 	"github.com/dgraph-io/ristretto"
 	"github.com/formancehq/stack/libs/go-libs/api"
-	"github.com/numary/ledger/pkg/core"
+	"github.com/to6ka/ledger/pkg/core"
 	"github.com/pkg/errors"
 )
 

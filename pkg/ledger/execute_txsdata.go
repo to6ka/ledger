@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/numary/ledger/pkg/core"
-	"github.com/numary/ledger/pkg/opentelemetry"
-	"github.com/numary/ledger/pkg/storage"
+	"github.com/to6ka/ledger/pkg/core"
+	"github.com/to6ka/ledger/pkg/opentelemetry"
+	"github.com/to6ka/ledger/pkg/storage"
 	"github.com/pkg/errors"
 )
 

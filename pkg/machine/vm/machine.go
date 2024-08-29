@@ -16,8 +16,8 @@ import (
 	"math/big"
 
 	"github.com/logrusorgru/aurora"
-	"github.com/numary/ledger/pkg/core"
-	"github.com/numary/ledger/pkg/machine/vm/program"
+	"github.com/to6ka/ledger/pkg/core"
+	"github.com/to6ka/ledger/pkg/machine/vm/program"
 )
 
 const (

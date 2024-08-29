@@ -7,9 +7,9 @@ import (
 	"testing"
 
 	"github.com/gin-gonic/gin"
-	"github.com/numary/ledger/pkg/api"
-	"github.com/numary/ledger/pkg/api/internal"
-	"github.com/numary/ledger/pkg/api/routes"
+	"github.com/to6ka/ledger/pkg/api"
+	"github.com/to6ka/ledger/pkg/api/internal"
+	"github.com/to6ka/ledger/pkg/api/routes"
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/fx"
 )

@@ -5,7 +5,7 @@ import (
 
 	"github.com/huandu/go-sqlbuilder"
 	"github.com/jackc/pgx/v5/pgconn"
-	"github.com/numary/ledger/pkg/storage"
+	"github.com/to6ka/ledger/pkg/storage"
 )
 
 type Flavor sqlbuilder.Flavor

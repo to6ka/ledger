@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/numary/ledger/pkg/core"
-	"github.com/numary/ledger/pkg/ledger"
+	"github.com/to6ka/ledger/pkg/core"
+	"github.com/to6ka/ledger/pkg/ledger"
 	"github.com/stretchr/testify/require"
 )
 

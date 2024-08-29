@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/numary/ledger/pkg/api"
-	"github.com/numary/ledger/pkg/api/internal"
-	"github.com/numary/ledger/pkg/core"
+	"github.com/to6ka/ledger/pkg/api"
+	"github.com/to6ka/ledger/pkg/api/internal"
+	"github.com/to6ka/ledger/pkg/core"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/fx"

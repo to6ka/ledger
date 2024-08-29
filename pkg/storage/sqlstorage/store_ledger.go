@@ -6,8 +6,8 @@ import (
 
 	"github.com/formancehq/stack/libs/go-libs/logging"
 	_ "github.com/jackc/pgx/v5/stdlib"
-	"github.com/numary/ledger/pkg/core"
-	"github.com/numary/ledger/pkg/ledger"
+	"github.com/to6ka/ledger/pkg/core"
+	"github.com/to6ka/ledger/pkg/ledger"
 	"github.com/patrickmn/go-cache"
 	"github.com/pkg/errors"
 )

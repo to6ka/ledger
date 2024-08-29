@@ -10,8 +10,8 @@ import (
 	"github.com/formancehq/stack/libs/go-libs/api"
 	"github.com/huandu/go-sqlbuilder"
 	"github.com/lib/pq"
-	"github.com/numary/ledger/pkg/core"
-	"github.com/numary/ledger/pkg/ledger"
+	"github.com/to6ka/ledger/pkg/core"
+	"github.com/to6ka/ledger/pkg/ledger"
 )
 
 func (s *Store) GetBalancesAggregated(ctx context.Context, q ledger.AggregatedBalancesQuery) (core.AssetsBalances, error) {

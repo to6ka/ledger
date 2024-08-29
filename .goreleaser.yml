@@ -10,10 +10,10 @@ builds:
   - binary: numary
     id: numary_windows
     ldflags:
-      - -X github.com/numary/ledger/cmd.BuildDate={{ .Date }}
-      - -X github.com/numary/ledger/cmd.Version={{ .Version }}
-      - -X github.com/numary/ledger/cmd.Commit={{ .ShortCommit }}
-      - -X github.com/numary/ledger/cmd.DefaultSegmentWriteKey={{ .Env.SEGMENT_WRITE_KEY }}
+      - -X github.com/to6ka/ledger/cmd.BuildDate={{ .Date }}
+      - -X github.com/to6ka/ledger/cmd.Version={{ .Version }}
+      - -X github.com/to6ka/ledger/cmd.Commit={{ .ShortCommit }}
+      - -X github.com/to6ka/ledger/cmd.DefaultSegmentWriteKey={{ .Env.SEGMENT_WRITE_KEY }}
     env:
       - CGO_ENABLED=1
       - CC=x86_64-w64-mingw32-gcc
@@ -26,10 +26,10 @@ builds:
   - binary: numary
     id: numary_linux_amd64
     ldflags:
-      - -X github.com/numary/ledger/cmd.BuildDate={{ .Date }}
-      - -X github.com/numary/ledger/cmd.Version={{ .Version }}
-      - -X github.com/numary/ledger/cmd.Commit={{ .ShortCommit }}
-      - -X github.com/numary/ledger/cmd.DefaultSegmentWriteKey={{ .Env.SEGMENT_WRITE_KEY }}
+      - -X github.com/to6ka/ledger/cmd.BuildDate={{ .Date }}
+      - -X github.com/to6ka/ledger/cmd.Version={{ .Version }}
+      - -X github.com/to6ka/ledger/cmd.Commit={{ .ShortCommit }}
+      - -X github.com/to6ka/ledger/cmd.DefaultSegmentWriteKey={{ .Env.SEGMENT_WRITE_KEY }}
       - -extldflags "-static"
     env:
       - CGO_ENABLED=1
@@ -42,10 +42,10 @@ builds:
   - binary: numary
     id: numary_linux_arm64
     ldflags:
-      - -X github.com/numary/ledger/cmd.BuildDate={{ .Date }}
-      - -X github.com/numary/ledger/cmd.Version={{ .Version }}
-      - -X github.com/numary/ledger/cmd.Commit={{ .ShortCommit }}
-      - -X github.com/numary/ledger/cmd.DefaultSegmentWriteKey={{ .Env.SEGMENT_WRITE_KEY }}
+      - -X github.com/to6ka/ledger/cmd.BuildDate={{ .Date }}
+      - -X github.com/to6ka/ledger/cmd.Version={{ .Version }}
+      - -X github.com/to6ka/ledger/cmd.Commit={{ .ShortCommit }}
+      - -X github.com/to6ka/ledger/cmd.DefaultSegmentWriteKey={{ .Env.SEGMENT_WRITE_KEY }}
       - -extldflags "-static"
     env:
       - CGO_ENABLED=1
@@ -108,7 +108,7 @@ release:
   prerelease: auto
   footer: |
     ## Want to try this version ?
-    [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/numary/ledger/tree/{{ .Tag }}&version={{ .Tag }})
+    [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/to6ka/ledger/tree/{{ .Tag }}&version={{ .Tag }})
     ## What to do next?
     - Read the [documentation](https://docs.numary.com/oss/ledger/get-started/installation)
     - Join our [Discord server](https://discord.gg/xyHvcbzk4w)

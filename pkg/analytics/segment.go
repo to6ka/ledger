@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/formancehq/stack/libs/go-libs/logging"
-	"github.com/numary/ledger/pkg/ledger"
-	"github.com/numary/ledger/pkg/storage"
+	"github.com/to6ka/ledger/pkg/ledger"
+	"github.com/to6ka/ledger/pkg/storage"
 	"github.com/pbnjay/memory"
 	"github.com/pborman/uuid"
 	"go.uber.org/fx"
